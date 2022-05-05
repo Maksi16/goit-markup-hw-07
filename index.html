@@ -21,7 +21,7 @@
     <!-- Шапка сайта-->
     <header class="header">
       <div class="conteiner header__conteiner">
-        <nav class="navigation header__navigation">
+        <nav class="navigation">
           <a class="logo header__logo link" href="./index.html"
             ><span class="logo__label">Web</span>Studio</a
           >
@@ -58,68 +58,68 @@
     <main>
       <!--Секция герой-->
       <div class="hero">
-        <section>
-          <h1 class="hero-text">
+        <section class="hero__section">
+          <h1 class="hero__title">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
+          <button class="button hero__btn" type="button" data-modal-open>Заказать услугу</button>
         </section>
       </div>
       <!-- Особенности  -->
       <section class="section">
         <div class="conteiner">
           <h2 class="visually-hidden">Особенности компании</h2>
-          <ul class="features-list list">
-            <li class="features-item icon-antenna">
-              <h3 class="features-h">
-                <div class="features-icon-box">
-                  <svg class="features-icon" width="70" height="70">
+          <ul class="features list">
+            <li class="features__item">
+              <h3 class="features__title">
+                <div class="features__box">
+                  <svg class="features__icon" width="70" height="70">
                     <use href="./images/icon/icon.svg#icon-antenna"></use>
                   </svg>
                 </div>
                 Внимание к деталям
               </h3>
-              <p class="features-text">
+              <p class="features__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции
               </p>
             </li>
-            <li class="features-item icon-clock">
-              <h3 class="features-h">
-                <div class="features-icon-box">
-                  <svg class="features-icon" width="70" height="70">
+            <li class="features__item">
+              <h3 class="features__title">
+                <div class="features__box">
+                  <svg class="features__icon" width="70" height="70">
                     <use href="./images/icon/icon.svg#icon-clock"></use>
                   </svg>
                 </div>
                 Пунктуальность
               </h3>
-              <p class="features-text">
+              <p class="features__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="features-item icon-diagram">
-              <h3 class="features-h">
-                <div class="features-icon-box">
-                  <svg class="features-icon" width="70" height="70">
+            <li class="features__item">
+              <h3 class="features__title">
+                <div class="features__box">
+                  <svg class="features__icon" width="70" height="70">
                     <use href="./images/icon/icon.svg#icon-diagram"></use>
                   </svg>
                 </div>
                 Планирование
               </h3>
-              <p class="features-text">
+              <p class="features__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="features-item icon-astronaut">
-              <h3 class="features-h">
-                <div class="features-icon-box">
-                  <svg class="features-icon" width="70" height="70">
+            <li class="features__item">
+              <h3 class="features__title">
+                <div class="features__box">
+                  <svg class="features__icon" width="70" height="70">
                     <use href="./images/icon/icon.svg#icon-astronaut"></use>
                   </svg>
                 </div>
                 Современные технологии
               </h3>
-              <p class="features-text">
+              <p class="features__text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -129,31 +129,31 @@
       <!-- Чем занимется компания -->
       <section class="work">
         <div class="conteiner">
-          <h2 class="work-text">Чем мы занимаемся</h2>
-          <ul class="work-list list">
-            <li class="work-item">
+          <h2 class="work__title">Чем мы занимаемся</h2>
+          <ul class="work__list list">
+            <li class="work__item">
               <img
                 src="./images/box1.jpg"
                 width="370"
                 alt="программист работает за компьютером в офисе"
               />
-              <p class="work-tumb">Десктопные приложения</p>
+              <p class="work__text">Десктопные приложения</p>
             </li>
-            <li class="work-item">
+            <li class="work__item">
               <img
                 src="./images/box2.jpg"
                 width="370"
                 alt="дизайнер разрабатывает веб-интерфейс для смартфонов"
               />
-              <p class="work-tumb">Мобильные приложения</p>
+              <p class="work__text">Мобильные приложения</p>
             </li>
-            <li class="work-item">
+            <li class="work__item">
               <img
                 src="./images/box3.jpg"
                 width="370"
                 alt="веб-дизайнер выбиреат цвет на графическом планшете"
               />
-              <p class="work-tumb">Дизайнерские решения</p>
+              <p class="work__text">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -161,9 +161,9 @@
       <!-- Команда -->
       <section class="section team">
         <div class="conteiner">
-          <h2 class="team-text">Наша команда</h2>
-          <ul class="team-list list">
-            <li class="team-item">
+          <h2 class="team__title">Наша команда</h2>
+          <ul class="team__list list">
+            <li class="team__item">
               <img class="team-img" src="./images/ig.jpg" width="270" alt="фото Игоря Демьяненко" />
               <div class="team-box">
                 <h3 class="team-name">Игорь Демьяненко</h3>
@@ -197,8 +197,8 @@
                 </li>
               </ul>
             </li>
-            <li class="team-item">
-              <img class="team-img" src="./images/ol.jpg" width="270" alt="фото Ольги Репиной" />
+            <li class="team__item">
+              <img class="team__img" src="./images/ol.jpg" width="270" alt="фото Ольги Репиной" />
               <div class="team-box">
                 <h3 class="team-name">Ольга Репина</h3>
                 <p class="team-prof">Frontend Developer</p>
@@ -231,9 +231,9 @@
                 </li>
               </ul>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img
-                class="team-img"
+                class="team__img"
                 src="./images/nic.jpg"
                 width="270"
                 alt="фото Николая Тарасова"
@@ -270,9 +270,9 @@
                 </li>
               </ul>
             </li>
-            <li class="team-item">
+            <li class="team__item">
               <img
-                class="team-img"
+                class="team__img"
                 src="./images/mih.jpg"
                 width="270"
                 alt="фото Михаила Ермакова"
@@ -382,43 +382,43 @@
             </ul>
           </address>
         </div>
-        <div class="foot-soc-icon">
-          <h2 class="foot-soc-text">присоединяйтесь</h2>
-          <ul class="foot-icon-list list">
-            <li class="foot-icon-item">
-              <a class="foot-icon-link" href="https://www.instagram.com">
-                <svg class="foot-icon" width="20" height="20">
+        <div class="socials footer__socials">
+          <h2 class="socials__title">присоединяйтесь</h2>
+          <ul class="socials__list list">
+            <li class="socials__item">
+              <a class="socials__link" href="https://www.instagram.com">
+                <svg class="socials__icon" width="20" height="20">
                   <use href="./images/icon/icon.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="foot-icon-item">
-              <a class="foot-icon-link" href="https://www.twitter.com"
-                ><svg class="foot-icon" width="20" height="20">
+            <li class="socials__item">
+              <a class="socials__link" href="https://www.twitter.com"
+                ><svg class="socials__icon" width="20" height="20">
                   <use href="./images/icon/icon.svg#icon-twitter"></use></svg
               ></a>
             </li>
-            <li class="foot-icon-item">
-              <a class="foot-icon-link" href="https://www.facebook.com"
-                ><svg class="foot-icon" width="20" height="20">
+            <li class="socials__item">
+              <a class="socials__link" href="https://www.facebook.com"
+                ><svg class="socials__icon" width="20" height="20">
                   <use href="./images/icon/icon.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li class="foot-icon-item">
-              <a class="foot-icon-link" href="https://www.linkedin.com"
-                ><svg class="foot-icon" width="20" height="20">
+            <li class="socials__item">
+              <a class="socials__link" href="https://www.linkedin.com"
+                ><svg class="socials__icon" width="20" height="20">
                   <use href="./images/icon/icon.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
-        <div class="subscription">
-          <h2 class="subscription-text">Подпишитесь на рассылку</h2>
-          <form class="subscription-form">
-            <input class="subscription-input" type="email" name="email" placeholder="E-mail" />
-            <button type="submit" class="subscription-btn">
+        <div class="subscription footer__subscription">
+          <h2 class="subscription__titel">Подпишитесь на рассылку</h2>
+          <form class="subscription__form">
+            <input class="subscription__input" type="email" name="email" placeholder="E-mail" />
+            <button type="submit" class="button subscription__btn">
               Подписаться
-              <svg class="icon-send" width="24" heigth="24">
+              <svg class="subscription__icon" width="24" heigth="24">
                 <use href="./images/icon/icon.svg#icon-send"></use>
               </svg>
             </button>
