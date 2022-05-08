@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #fff;
+}
+:root {
+  --brand-color: #2196f3;
+  --second-color: #757575;
+  --card-sed-marg: 30px;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.conteiner {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 94px 0;
+}
