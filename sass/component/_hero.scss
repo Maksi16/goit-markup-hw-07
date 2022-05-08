@@ -9,7 +9,6 @@
 
   background-color: #2f303a;
   text-align: center;
-  /* outline: 1px solid yellow; */
 }
 .hero__section {
   margin-right: auto;
@@ -28,8 +27,9 @@
 }
 .hero__btn {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero__btn:hover,
-.hero__btn:focus {
-  background-color: #188ce8;
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }

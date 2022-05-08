@@ -3,10 +3,11 @@
 }
 .features__item {
   width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.features__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .features__title {
   margin-bottom: 10px;
 
@@ -28,5 +29,5 @@
 .features__text {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--second-color);
+  color: $secondColor;
 }
